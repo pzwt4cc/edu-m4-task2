@@ -1,0 +1,39 @@
+.userCard {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border: 2px solid grey;
+    border-radius: var(--default-border-radius);
+
+    padding: 1rem;
+}
+
+.userImg {
+    border-radius: 50%;
+    border: 2px solid brown;
+    object-fit: cover;
+    width: var(--user-img-default-size);
+    height: var(--user-img-default-size);
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.userName {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.userDesc {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 1rem;
+}
+
+.userDescInfo {
+    font-style: italic;
+}
