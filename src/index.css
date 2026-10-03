@@ -4,6 +4,14 @@
 
 :root {
     --user-img-default-size: 150px;
-    --default-border-radius: 8px;
+    --main-border-color: #e0475b;
+    --main-dark-color: #4a2330;
+    --main-card-bg-color: #2a1520;
+    --default-border-radius: 12px;
     font-family: sans-serif;
+}
+
+body {
+    background: #190d14;
+    color: #f6e9ec;
 }

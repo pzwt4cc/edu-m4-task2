@@ -1,9 +1,12 @@
 .userCardList {
     display: flex;
     flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
     border-radius: var(--default-border-radius);
     gap: 1.5rem;
-    margin: 2rem;
     padding: 1rem;
     box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.6);
+    background-color: var(--main-card-bg-color);
+    margin: 3rem auto;
 }

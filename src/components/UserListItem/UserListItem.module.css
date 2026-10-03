@@ -2,15 +2,34 @@
     display: flex;
     align-items: center;
     gap: 1rem;
-    border: 2px solid grey;
+    border: 2px solid var(--main-dark-color);
     border-radius: var(--default-border-radius);
-
     padding: 1rem;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+
+.userCard:hover {
+    box-shadow: 0 0 15px 10px rgba(150, 50, 50, 0.5);
+    transform: translateY(-5px);
+}
+
+.userCard:active {
+    transform: translateY(5px) scale(0.99);
+    border-radius: 16px;
+}
+
+.selected {
+    border-color: var(--main-border-color);
+    background-color: var(--main-dark-color);
+    box-shadow: 0 0 15px 10px rgba(150, 50, 50, 0.5);
+    transition: ease-in-out 0.2s;
+    border-radius: 16px;
 }
 
 .userImg {
     border-radius: 50%;
-    border: 2px solid brown;
+    border: 2px solid var(--main-border-color);
     object-fit: cover;
     width: var(--user-img-default-size);
     height: var(--user-img-default-size);
