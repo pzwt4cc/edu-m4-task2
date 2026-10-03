@@ -1,11 +1,12 @@
-import UserListItem from "./components/UserListItem";
+import UserList from "./components/UsersList";
+import { users } from "./data/users";
 import "./reset.css";
 import "./App.module.css";
 
 function App() {
   return (
     <>
-      <UserListItem />
+      <UserList users={users} />
     </>
   );
 }
